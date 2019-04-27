@@ -7,7 +7,7 @@
 	
 }
 .jumbotron.jumbo1{
-  background-image: url("../images/mountain.jpg");
+  background-image: url("../images/cover.jpg");
 }
 
 i.fa {
@@ -75,9 +75,8 @@ i.fa {
 }
 
 .thumb_sponsor{
-  background-image: url("../images/annapurna.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url("../images/cover.jpg");
+  background-repeat: round;
   height: 8rem;
   width: 100%;
 }
