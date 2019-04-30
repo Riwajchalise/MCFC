@@ -1,56 +1,153 @@
 <!DOCTYPE html>
 <html>
-<head>
-        <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      id="easy_load_more-frontend-css"
+      href="../Homepage/css/style-frontend.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="dpsp-frontend-style-css"
+      href="../Homepage/css/frontend.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="main-stylesheet-css"
+      href="../Homepage/css/app.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wpmtst-custom-style-css"
+      href="../Homepage/css/custom.css"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body
+    style="background-color: white"
+    class="page-template page-template-page-templates page-template-company page-template-page-templatescompany-php page page-id-53 offcanvas"
+    data-gr-c-s-loaded="true"
+  >
+    <header class="site-header" role="banner">
+      <div id="main-header" class="grid-container">
+        <button
+          class="hamburger hamburger--spin"
+          type="button"
+          data-toggle="offCanvas"
+          aria-expanded="false"
+          aria-controls="offCanvas"
+        >
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
 
-<h2>Responsive Image Gallery</h2>
-<h4>Resize the browser window to see the effect.</h4>
+        <a id="logo-link" href="#" rel="Home">
+          <img id="logo" src="../Homepage/image/logo.png" alt="Place your logo" />
+        </a>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./image/Celeb.jpg">
-      <img src="./image/Celeb.jpg" alt="Cinque Terre" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
+        <a id="mobile-call" href="tel:+9779882828282"
+          ><i class="fa fa-phone" aria-hidden="true"></i
+        ></a>
+
+        <nav>
+          <!--  -->
+          <div class="menu-main-menu-container">
+            <ul id="menu-main-menu-1" class="menu">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-53 current_page_item menu-item-55 is-active"
+              >
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"
+              >
+                <a href="#">Members</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"
+              >
+                <a href="#">Events</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1005"
+              >
+                <a href="#">WallPaper Gallery</a>
+              </li>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-413"
+              >
+                <a href="#">Merchandise Comparison</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./image/Celeb.jpg">
+          <img
+            src="./image/Celeb.jpg"
+            alt="Cinque Terre"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./image/Kdv.jpg">
+          <img src="./image/Kdv.jpg" alt="Forest" width="600" height="400" />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="./image/PEP.jpg">
+          <img
+            src="./image/PEP.jpg"
+            alt="Northern Lights"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">Add a description of the image here</div>
+      </div>
+    </div>
 
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./image/Kdv.jpg">
-      <img src="./image/Kdv.jpg" alt="Forest" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="./image/PEP.jpg">
-      <img src="./image/PEP.jpg" alt="Northern Lights" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
+    <div class="clearfix"></div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-    </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="clearfix"></div>
-
-<div style="padding:6px;">
-  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-</div>
-
-</body>
+    <div style="padding:6px;">
+      <p>
+        This example use media queries to re-arrange the images on different
+        screen sizes: for screens larger than 700px wide, it will show four
+        images side by side, for screens smaller than 700px, it will show two
+        images side by side. For screens smaller than 500px, the images will
+        stack vertically (100%).
+      </p>
+      <p>
+        You will learn more about media queries and responsive web design later
+        in our CSS Tutorial.
+      </p>
+    </div>
+  </body>
 </html>
